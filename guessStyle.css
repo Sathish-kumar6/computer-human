@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left,rgb(150, 239, 255),rgb(107, 122, 190));
+    transition: background-color 1s;
+
+}
+body:hover{
+    background-color: yellow;
+}
+#note{
+    background-color: white;
+    width: 70vw;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    align-content: center;
+    margin-left: 15vw;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px
+}
+#fullDataForm{
+    background-color: rgb(226, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    padding: 20px;
+    margin-top: 15vh;
+    margin-left: 25vw;
+    align-content: center;
+    border-radius: 30px;
+}
+
+#title{
+    padding: 5px;
+    color: rgb(4, 95, 4);
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#enternumber{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: medium;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: orange;
+    border-radius: 8px;
+}
+#answer{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#correct{
+    color: darkgreen;
+    font-weight: bold;
+}
+#wrong{
+    color: red;
+    font-weight: bold;
+}
+
+#answer{
+    font-size: x-large;
+}
+#score{
+    background-color: gold;
+    width: 130px;
+    display: inline-block;
+    margin-top: -5px;
+    padding: 8px;
+    margin-left: 10px; 
+    font-size: medium;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 5px;
+}
+#realguess{
+   
+    width: 20vw;
+    height: 100px;
+    margin-left: 40vw;
+    font-weight: bolder;
+}
+#human{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(102, 17, 6);
+    padding-top: 10px;
+}
+#computer{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(102, 17, 6);
+}
