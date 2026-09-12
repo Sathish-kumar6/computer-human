@@ -31,7 +31,7 @@
 
     var randomnumber = Math.floor(Math.random()*10)+1
 
-    var scoree = 10
+    var scoree = 0
     
     function change(){
         enterednumberinput = enterednumber.value
@@ -39,7 +39,7 @@
         {
             answer.textContent = "Correct Guess"
             answer.style.color = "green"
-            score.textContent = "Your score :"+ scoree
+            score.textContent = "Your score :"+ scoree+1
        
         }
         else if(enterednumberinput=="")
